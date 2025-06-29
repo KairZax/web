@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main class="mainnosotros">
+        <section id="nosotros">
+            <h2>Nosotros</h2>
+            <p>En <strong>ClickyCaps</strong> somos un equipo apasionado por los teclados y la tecnología.<br>
+                Creemos que un buen teclado no es solo una herramienta, sino una parte esencial de tu día a día, ya sea
+                en el trabajo, el estudio o el gaming.</p>
+
+            <h3>¿Qué hacemos?</h3>
+            <p>Nos especializamos en la venta de teclados mecánicos, teclados personalizados y accesorios
+                relacionados.<br>
+                Seleccionamos cuidadosamente cada producto, asegurando calidad, durabilidad y estilo, para que cada
+                usuario encuentre el teclado que mejor se adapta a su personalidad y necesidades.</p>
+
+            <h3>¿Dónde nos encontramos?</h3>
+            <p>Nuestro local está ubicado en <strong>Buenos Aires, Argentina</strong>, pero también trabajamos de manera
+                online para llegar a todo el país.<br>
+                Si sos de la zona, podés visitarnos y probar nuestros productos en persona.<br>
+                Si estás en cualquier otra provincia, te enviamos tu teclado con logística segura y seguimiento en todo
+                momento.</p>
+
+            <h3>¿Cómo trabajamos?</h3>
+            <p>Nos manejamos principalmente a través de nuestra tienda online y redes sociales.<br>
+                Ofrecemos:</p>
+            <ul>
+                <li>Atención personalizada por WhatsApp, Instagram o mail.</li>
+                <li>Envíos rápidos a todo el país.</li>
+                <li>Asesoramiento previo para que elijas el producto ideal.</li>
+                <li>Opciones de pago seguras y flexibles.</li>
+            </ul>
+
+            <p>En <strong>ClickyCaps</strong> te acompañamos en cada paso para que tu experiencia sea tan cómoda como
+                tus nuevas teclas.</p>
+
+            <h3>Nuestros Switches</h3>
+            <table class="tabla-switches">
+                <tr>
+                    <th>Switch</th>
+                    <th>Tipo</th>
+                    <th>Sonido</th>
+                    <th>Fuerza de Actuación</th>
+                </tr>
+                <tr>
+                    <td>Cherry MX Blue</td>
+                    <td>Clicky</td>
+                    <td>Alto</td>
+                    <td>50g</td>
+                </tr>
+                <tr>
+                    <td>Cherry MX Red</td>
+                    <td>Lineal</td>
+                    <td>Bajo</td>
+                    <td>45g</td>
+                </tr>
+                <tr>
+                    <td>Cherry MX Brown</td>
+                    <td>Táctil</td>
+                    <td>Medio</td>
+                    <td>45g</td>
+                </tr>
+                <tr>
+                    <td>Gateron Yellow</td>
+                    <td>Lineal</td>
+                    <td>Bajo</td>
+                    <td>50g</td>
+                </tr>
+                <tr>
+                    <td>Kailh Box White</td>
+                    <td>Clicky</td>
+                    <td>Muy alto</td>
+                    <td>45g</td>
+                </tr>
+            </table>
+
+
+        </section>
+
+
+
+        <section class="consultas">
+            <h2>Consultas</h2>
+            <h3>Ingrese su mail</h3>
+            <input type="email" name="" id="email-consulta">
+            <h3>ingrese su consulta</h3>
+            <input type="text" id="texto-consulta">
+            <div class="captcha">
+                <h4 id="resultado"></h4>
+                <input type="text" id="textCaptcha" readonly>
+                <h4>Ingrese el codigo para comprobar que es humano</h4>
+                <input type="text" id="ingresoCaptcha">
+            </div>
+            <button id="btnVerificar">Enviar</button>
+        </section>
+
+        <div id="container-tabla-consulta">
+            <table id="tabla-consultas">
+                <thead>
+                    <tr>
+                        <th>email</th>
+                        <th>consulta</th>
+                    </tr>
+                </thead>
+                <tbody id="tabla-dinamica">
+                    
+                </tbody>
+
+            </table>
+        </div>
+    </main>
+</body>
+
+
+</html>
